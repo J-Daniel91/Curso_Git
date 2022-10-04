@@ -1,0 +1,10 @@
+    1  clear
+    2  git config --global alias.logpg 'log --pretty=oneline --graph'
+    3  git logpg
+    4  git tag
+    5  git tag -a v0.1 -m 'Ate a aula nro 5'
+    6  git logpg
+    7  git checkout master
+    8  git rebase feature
+    9  git logpg
+   10  history > Aula_6.txt
